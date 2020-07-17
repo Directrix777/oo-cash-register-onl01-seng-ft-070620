@@ -26,4 +26,7 @@ class CashRegister
     return "After the discount, the total comes to $#{@total.to_int}."
   end
 
+  def void_last_transaction
+  end
+
 end
